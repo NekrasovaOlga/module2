@@ -15,6 +15,12 @@ const itemFourItem = document.querySelectorAll('.item_four .props__item');
 const itemFiveList = itemFive.querySelector('.props__list');
 const itemThreeList = itemThree.querySelector('.props__list');
 
+const ads = document.querySelector('.ads');
+
+
+ads.remove();
+
+
 items.prepend(item[1], item[2], item[3], item[0], item[4], item[5]);
 
 itemFourItem[2].after(itemTwoProps);
